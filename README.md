@@ -178,3 +178,8 @@ Alternatively, your submission could consist of only the **GitHub link** to your
 | Predict and display the keypoints on each detected face. | After face detection with a Haar cascade and face pre-processing, apply your trained model to each detected face, and display the predicted keypoints on each face in the image. |
 
 LICENSE: This project is licensed under the terms of the MIT license.
+
+## Note
+This project is part of Udacity Nanodegree Computer Vision course : https://www.udacity.com/course/computer-vision-nanodegree--nd891. Feel free to contribute to the project. The dataset used can be downloaded using script present in the first notbook.
+
+## ** Kindly cite if any part of the code is referred **
