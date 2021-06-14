@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-In this project, you’ll combine your knowledge of computer vision techniques and deep learning architectures to build a facial keypoint detection system. Facial keypoints include points around the eyes, nose, and mouth on a face and are used in many applications. These applications include: facial tracking, facial pose recognition, facial filters, and emotion recognition. Your completed code should be able to look at any image, detect faces, and predict the locations of facial keypoints on each face; examples of these keypoints are displayed below.
+Using knowledge of computer vision techniques and deep learning architectures to build a facial keypoint detection system. Facial keypoints include points around the eyes, nose, and mouth on a face and are used in many applications. These applications include: facial tracking, facial pose recognition, facial filters, and emotion recognition. Your completed code should be able to look at any image, detect faces, and predict the locations of facial keypoints on each face; examples of these keypoints are displayed below.
 
 ![Facial Keypoint Detection][image1]
 
@@ -20,7 +20,11 @@ __Notebook 3__ : Facial Keypoint Detection Using Haar Cascades and your Trained 
 
 __Notebook 4__ : Fun Filters and Keypoint Uses
 
+## Model design
 
+* Detect all the faces in an image using a face detector (Haar Cascade detector is used in this project).
+* Pre-process face images so that they are grayscale, and transformed to a Tensor of the input size that your net expects.
+* Use your trained model to detect facial keypoints on the image.
 
 ## Project Instructions
 
